@@ -1,4 +1,9 @@
-*#*
+*.s#?
+*.b#?
+*.l#?
 *~
 *.bak
 *.backup
+*.pro
+*-cache.lib
+eagle.epf
