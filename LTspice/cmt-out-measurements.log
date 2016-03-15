@@ -1,0 +1,22 @@
+Circuit: * Z:\home\kai\EDA\Sharp-PC\Audio Interface\LTspice\cmt-out-measurements.asc
+
+.OP point found by inspection.
+
+Date: Mon Mar 14 20:23:11 2016
+Total elapsed time: 0.805 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 76230
+traniter = 76230
+tranpoints = 38116
+accept = 31018
+rejected = 7098
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1: 246 Bytes object code size  0.4/0.3/[0.3]
+Matrix Compiler2: 526 Bytes object code size  0.3/0.3/[0.3]
+
+
