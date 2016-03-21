@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:KaiBader
 LIBS:KaiBader_Sharp_Connector
+LIBS:audio_interface-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -130,7 +131,7 @@ L CONN_01X02 P3
 U 1 1 56D702CB
 P 8950 2400
 F 0 "P3" H 9028 2438 50  0000 L CNN
-F 1 "MIC" H 9028 2346 50  0000 L CNN
+F 1 "OUT" H 9028 2346 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8950 2400 50  0001 C CNN
 F 3 "" H 8950 2400 50  0000 C CNN
 	1    8950 2400
@@ -236,7 +237,7 @@ F 3 "" H 8250 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6700 4150 0    60   ~ 0
-CMT-IN
+MIC-IN
 Text Notes 7600 2550 0    60   ~ 0
 LINE-OUT
 $Comp
@@ -418,7 +419,7 @@ PD0
 Text GLabel 7850 2350 0    60   Input ~ 0
 PD0
 Text Notes 5350 6400 0    60   ~ 0
-CMT-IN
+MIC-IN
 Text Notes 5350 4900 0    60   ~ 0
 LINE-OUT
 $Comp
