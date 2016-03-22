@@ -3,8 +3,8 @@ Circuit: * Z:\home\kai\EDA\Sharp-PC\Audio Interface\LTspice\cmt-out.asc
 WARNING: Less than two connections to node SIGNAL.  This node is used by A1.
 Direct Newton iteration for .op point succeeded.
 
-Date: Tue Mar 15 00:08:14 2016
-Total elapsed time: 0.292 seconds.
+Date: Tue Mar 22 09:28:34 2016
+Total elapsed time: 0.302 seconds.
 
 tnom = 27
 temp = 27
@@ -17,7 +17,7 @@ rejected = 720
 matrix size = 14
 fillins = 0
 solver = Normal
-Matrix Compiler1: 768 Bytes object code size  0.8/0.4/[0.4]
-Matrix Compiler2: 1,04 KB object code size  0.4/0.5/[0.4]
+Matrix Compiler1: 768 bytes object code size  2.1/2.0/[1.5]
+Matrix Compiler2: 1.04 KB object code size  1.6/2.0/[1.6]
 
 
