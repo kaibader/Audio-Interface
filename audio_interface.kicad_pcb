@@ -506,11 +506,6 @@
       (net 5 "Net-(C4-Pad1)"))
     (pad 2 thru_hole oval (at 0 2.54 90) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
-      (at (xyz 0 -0.05 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54EA090C) (tstamp 56F9A11D)
@@ -539,11 +534,6 @@
       (net 7 "Net-(C5-Pad2)"))
     (pad 2 thru_hole oval (at 0 2.54 90) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
-      (at (xyz 0 -0.05 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 553634F8) (tstamp 56F9A124)
