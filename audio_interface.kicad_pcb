@@ -3,7 +3,7 @@
   (general
     (links 53)
     (no_connects 53)
-    (area 145.324999 75.504524 189.286018 121.8575)
+    (area 145.324999 103.974999 189.286018 121.8575)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -478,11 +478,6 @@
       (net 17 ~RESET))
     (pad 6 smd oval (at 2.54 -5.08 90) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03.wrl
-      (at (xyz 0.05 -0.1 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54EA090C) (tstamp 56F9A117)
