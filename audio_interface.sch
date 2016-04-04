@@ -214,19 +214,8 @@ F 3 "" H 2650 4800 50  0000 C CNN
 	1    2650 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 3500 0    60   Input ~ 0
+Text GLabel 2900 3500 0    60   Input ~ 0
 ~RESET
-$Comp
-L SW_PUSH SW1
-U 1 1 56D7AE51
-P 2400 3900
-F 0 "SW1" H 2400 4156 50  0000 C CNN
-F 1 "SW_PUSH" H 2400 4064 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_EVQPE1" H 2400 3900 50  0001 C CNN
-F 3 "" H 2400 3900 50  0000 C CNN
-	1    2400 3900
-	0    -1   -1   0   
-$EndComp
 $Comp
 L GND #PWR07
 U 1 1 56D7B07A
@@ -455,9 +444,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 4100 3300 4100
 Wire Wire Line
-	2800 4200 2400 4200
-Connection ~ 2400 4200
-Wire Wire Line
 	4600 1850 4600 1750
 Wire Wire Line
 	2000 4550 2000 4700
@@ -469,15 +455,11 @@ Wire Wire Line
 Wire Wire Line
 	3300 4000 2900 4000
 Wire Wire Line
-	3300 3900 3200 3900
+	3200 3900 3300 3900
 Wire Wire Line
-	3200 3900 3200 3350
+	3200 3350 3200 3900
 Wire Wire Line
 	2900 4000 2900 3850
-Wire Wire Line
-	2400 3600 2400 3500
-Wire Wire Line
-	2400 3500 3200 3500
 Connection ~ 3200 3500
 Wire Wire Line
 	3200 3050 3200 2900
@@ -557,28 +539,28 @@ $EndComp
 Wire Wire Line
 	8350 5050 8350 5250
 Wire Wire Line
-	8450 5150 8250 5150
+	8250 5150 8450 5150
 Connection ~ 8350 5150
 Wire Wire Line
 	7950 5150 7850 5150
 Wire Wire Line
-	8850 5450 8650 5450
+	8650 5450 8850 5450
 Wire Wire Line
 	8750 5150 8750 5450
 Wire Wire Line
 	8750 5450 8700 5450
 Connection ~ 8700 5450
 Wire Wire Line
-	7550 4950 7550 4850
+	7550 4850 7550 4950
 Wire Wire Line
-	9250 4550 7550 4550
+	7550 4550 9250 4550
 Wire Wire Line
 	8350 4450 8350 4750
 Wire Wire Line
 	9250 4550 9250 4750
 Connection ~ 8350 4550
 Wire Wire Line
-	9350 5450 9150 5450
+	9150 5450 9350 5450
 Wire Wire Line
 	9250 5450 9250 5050
 Connection ~ 9250 5450
@@ -716,4 +698,8 @@ Wire Wire Line
 Wire Wire Line
 	4200 2250 4200 2200
 NoConn ~ 5500 4000
+Wire Wire Line
+	2900 3500 3200 3500
+Wire Wire Line
+	2400 4200 2800 4200
 $EndSCHEMATC
