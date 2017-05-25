@@ -29,9 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:KaiBader
-LIBS:KaiBader_Sharp_Connector
-LIBS:audio_interface-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -343,7 +341,7 @@ NoConn ~ 5500 4600
 NoConn ~ 5500 4700
 NoConn ~ 5500 4400
 $Comp
-L ATMEGA16U2 IC1
+L ATMEGA16U2-AU IC1
 U 1 1 56DBCEF4
 P 4400 4600
 F 0 "IC1" H 3700 6000 50  0000 C CNN
