@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Sharp PC 1500/1600 USB Audio Interface"
-Date "2018-10-11"
+Date "2018-10-19"
 Rev "1.1"
 Comp "Kai Christian Bader"
 Comment1 "https://www.kaibader.de/"
