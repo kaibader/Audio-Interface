@@ -911,7 +911,7 @@
 
   (module KaiBader:CSTCE16M0V (layer F.Cu) (tedit 5BC4B3D5) (tstamp 5BC47C94)
     (at 160.9 111.75 180)
-    (path /5B9BD27E)
+    (path /5BC9F58A)
     (fp_text reference Y1 (at 1 2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
